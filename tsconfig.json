@@ -1,0 +1,49 @@
+# Finance Tracker
+
+A personal finance dashboard built with Next.js to track income, expenses, investment contributions, loan payments, savings, and daily financial activity.
+
+## Features
+
+- Add, edit, remove transactions with flexible categories
+- Track income, expenses, investments, loans, and savings
+- View monthly cash-flow trends
+- Monitor top spending categories
+- Keep transaction history in local storage for easy personal use
+- Responsive interface for desktop and mobile
+
+## Stack
+
+- Next.js
+- React
+- TypeScript
+- CSS modules / custom styling
+
+## Run locally
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open the app in your browser:
+   ```text
+   http://localhost:3000
+   ```
+
+## Notes
+
+This version stores data in the browser via `localStorage`, so it is ideal for personal tracking without needing a backend or database setup.
+
+## Future upgrades
+
+- Add user authentication
+- Connect to a real database
+- Support recurring budgets and alerts
+- Add CSV export
+- Add charts and analytics over custom date ranges
+- Deploy to Vercel or a custom hosting service
