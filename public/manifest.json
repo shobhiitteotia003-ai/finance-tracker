@@ -1,0 +1,80 @@
+{
+  "name": "Personal Finance Manager",
+  "short_name": "Finance Manager",
+  "description": "Your private, offline financial tracker and accountant. 100% local - no cloud, no servers, complete privacy.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#081120",
+  "background_color": "#081120",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshot-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-2.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Transaction",
+      "short_name": "Add",
+      "description": "Quickly add a new financial transaction",
+      "url": "/?view=add",
+      "icons": [
+        {
+          "src": "/icon-add-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "View Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your financial overview and insights",
+      "url": "/?view=dashboard",
+      "icons": [
+        {
+          "src": "/icon-dashboard-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
